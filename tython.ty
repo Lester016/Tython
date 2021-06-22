@@ -1,0 +1,33 @@
+# mag sulat o mag awtput
+sulat("Kumusta, Mundo!\n")
+
+# mga baryabol
+x = 1
+y = 2
+
+# mga aritmetika
+sulat(x + y)
+sulat(x - y)
+sulat(x * y)
+sulat(x / y)
+
+# magtukoy ng gawain
+tukuyin magbawas_ng_lima(x):
+	ibalik x - 5
+# isulat ang ibinalik nang gawaing tinukoy
+sulat(magbawas_ng_lima(12))
+
+# mag-input
+sulat('Ilagay ang iyong pangalan: ')
+pangalan = input()
+sulat('Kumusta, ' + pangalan)
+
+# mga lohikal na opereytor
+sulat(1 < 5 at  8 < 10)
+sulat(5 == 5 o 2 == 4)
+sulat(hindi(3 < 5 at 6 < 10))
+
+# mag-ulit o loop
+prutas = ["mansanas", "saging", "ubas"] # listahan
+ulitin x ang prutas:
+  sulat(x)
